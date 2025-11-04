@@ -9,7 +9,7 @@ import os
 
 # --- Google Drive Authentication ---
 SCOPE = ['https://www.googleapis.com/auth/drive.file']
-creds = ServiceAccountCredentials.from_json_keyfile_name('credentials.json', SCOPE)
+creds = ServiceAccountCredentials.from_json_keyfile_name('photo-477117-381ce7cbb680.json', SCOPE)
 drive = GoogleDrive(creds)
 
 # --- Streamlit UI ---
