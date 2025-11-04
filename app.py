@@ -18,8 +18,11 @@ uploaded_file = st.file_uploader("Upload Passport Photo", type=["jpg", "jpeg", "
 
 # --- STEP 3: Google Form Upload Link ---
 # Replace this with your actual Google Form pre-fill URL and entry ID for Student ID
+# https://docs.google.com/forms/d/e/1FAIpQLSdABCXYZ/viewform?usp=pp_url&entry.1843720394=
+
+GOOGLE_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSeVMywItDcpk1fJHT4Uj0NARIYVX90yTj9/viewform?usp=pp_url&entry.257403491="
 #GOOGLE_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSeVMywItDcpk1fJHT4Uj0NARIYVX90yTj9/viewform?usp=pp_url&entry.257403491="
-GOOGLE_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSeVMywItDcpk1fJHT4Uj0NARIYVX90yTj9-Lenqwmf11Rgm7Q/viewform?usp=pp_url&entry.257403491="
+#GOOGLE_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSeVMywItDcpk1fJHT4Uj0NARIYVX90yTj9-Lenqwmf11Rgm7Q/viewform?usp=pp_url&entry.257403491="
 
 if uploaded_file is not None:
     if not student_id:
