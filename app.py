@@ -35,7 +35,7 @@ if uploaded_file and student_id:
         image.save(temp_path)
 
         # Upload to Google Drive folder
-        FOLDER_ID = "YOUR_FOLDER_ID_HERE"
+        FOLDER_ID = "1aD2BIdry9WNreOOoiGXau3FNvNJh-9FO"
         file_drive = drive.CreateFile({'title': f"{student_id}.jpg", 'parents': [{'id': FOLDER_ID}]})
         file_drive.SetContentFile(temp_path)
         file_drive.Upload()
